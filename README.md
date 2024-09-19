@@ -37,11 +37,13 @@ Escriba un programa con sintaxis Python cuya función principal se llame **esVec
 Los valores para **forma** son:  'asc' o 'desc'
 
 ```python
->>> esVectorOrdenado([23, 656, 5533, 8120], 'asc')
+>>> esParLigado([2, 3, 4, 7, 8, 9])
 True
->>> esVectorOrdenado([15, 4, 0], 'desc')
+>>> esParLigado([2, 4, 6, 8])
+False
+>>> esParLigado([5, 7, 9])
 True
->>> esVectorOrdenado([11, 45], 'desc')
+>>> esParLigado([2, 3, 6, 8, 10])
 False
 ```
 
