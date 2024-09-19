@@ -32,9 +32,7 @@ Ejemplos del comportamiento de la función:
 
 ## esParLigado(lista)
 
-Escriba un programa con sintaxis Python cuya función principal se llame **esVectorOrdenado(vector, forma)**, que reciba como entradas un **vector** y una **forma**, este último será un string que especificará si el vector está ordenado en forma **ascendente o descendente**. Esta función retornará **True** si el vector corresponde al tipo de ordenamiento o **False** del caso contrario. No se puede usar su representación inversa o reversa del número
-
-Los valores para **forma** son:  'asc' o 'desc'
+Escriba un programa con sintaxis Python cuya función principal se llame esParLigado(lista), que reciba como entrada una lista de números enteros. Esta función retornará True si siempre que aparece un número par, este es seguido por un número impar, o False en caso contrario. En el caso de que la lista termine en un número par, se considerará que no está ligado a un impar, por lo que la función retornará False.
 
 ```python
 >>> esParLigado([2, 3, 4, 7, 8, 9])
